@@ -1,18 +1,11 @@
-#include <Arduino.h>
+#include <Wire.h>
+#include <WiFi.h>
+#include <PubSubClient.h>
+const char* ssid     = "Wokwi-GUEST";
+const char* password = "";
 
-// put function declarations here:
-int myFunction(int, int);
+// MQTT Broker
+const char* mqtt_server = "bdfc6e7f38564239bb84934a43c3abff.s1.eu.hivemq.cloud";
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
+WiFiClient espClient;
+PubSubClient client(espClient);
