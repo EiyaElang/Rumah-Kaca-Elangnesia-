@@ -1,6 +1,6 @@
-Gusti Ayu Purna Savitri
-Ni Komang Sintya Dewi
-Nabila Christian Putri Hermawan
-Vella Puspitasari Wijayanti
-Ni Made Ochiana Septhi Pratiwi
+Gusti Ayu Purna Savitri (Leader) <br>
+Ni Komang Sintya Dewi <br>
+Nabila Christian Putri Hermawan <br>
+Vella Puspitasari Wijayanti <br>
+Ni Made Ochiana Septhi Pratiwi <br>
 Luh Gede Sindy Pratiwi
