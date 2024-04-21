@@ -1,6 +1,6 @@
-Human Computer Interaction Agent.
-I Kadek Arma Saputra (Ketua)
-I Gede Elang Perdana Dwi Putra
-I Putu Gede Adi Surya Setiawan
-Daffa Ezrananda Pratama
+Human Computer Interaction Agent.<br>
+I Kadek Arma Saputra (Ketua) <br>
+I Gede Elang Perdana Dwi Putra <br>
+I Putu Gede Adi Surya Setiawan <br>
+Daffa Ezrananda Pratama <br>
 Arfian Sarianto Pendang
