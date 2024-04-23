@@ -1,4 +1,3 @@
-#include <Wire.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <secret.h>
