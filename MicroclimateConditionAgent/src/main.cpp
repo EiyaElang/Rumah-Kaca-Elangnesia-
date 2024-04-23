@@ -5,9 +5,7 @@
 #include <ESPAsyncWebServer.h>
 #include "LittleFS.h"
 #include <ArduinoJson.h>
-
-const char* ssid = "LAB TI";
-const char* pass = "#tiundiknas";
+#include "secret.h"
 
 WiFiMulti myWiFi;
 AsyncWebServer myWeb(80);
