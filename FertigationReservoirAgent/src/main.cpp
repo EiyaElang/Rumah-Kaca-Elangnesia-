@@ -1,8 +1,7 @@
 #include <Wire.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
-const char* ssid     = "Wokwi-GUEST";
-const char* password = "";
+#include <secret.h>
 
 // MQTT Broker
 const char* mqtt_server = "bdfc6e7f38564239bb84934a43c3abff.s1.eu.hivemq.cloud";
@@ -17,7 +16,7 @@ void setup_wifi() {
   Serial.print("Connecting to ");
   Serial.println(ssid);
 
-  WiFi.begin(ssid, password);
+  WiFi.begin(ssid, pass);
 
   unsigned long startTime = millis();
   while (WiFi.status() != WL_CONNECTED) {
