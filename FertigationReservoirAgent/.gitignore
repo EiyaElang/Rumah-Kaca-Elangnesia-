@@ -8,5 +8,3 @@ platformio.ini
 *.log
 **/*.log
 extensions.json```
-
-This will prevent prying eyes to steal your credentials.
