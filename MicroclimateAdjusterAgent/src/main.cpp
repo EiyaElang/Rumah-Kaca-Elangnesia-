@@ -21,7 +21,7 @@ void setup() {
   urusanWiFi.konek();
   urusanIoT.konek();
   urusanIoT.penangkapPesan(penangkapPesan);
-  urusanIoT.subscribe("tld/rumahkacaelangnesia/MicroclimateAdjusterAgent");
+  urusanIoT.subscribe("org/rumahkacaelangnesia/MicroclimateAdjusterAgent");
 
   penjadwal.init();
   penjadwal.addTask(task1);
@@ -49,6 +49,6 @@ void penangkapPesan(String topic, String message){
 /// @brief Fungsi callback dari task1
 void task1DetailTugas(){
   if(urusanIoT.apakahKonek() == 1){
-    urusanIoT.publish("tld/rumahkacaelangnesia", "MicroclimateAdjusterAgent");
+    urusanIoT.publish("org/rumahkacaelangnesia", "MicroclimateAdjusterAgent");
   }
 }
