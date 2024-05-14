@@ -1,6 +1,6 @@
 #include "UrusanIoT.h"
 
-/// @brief Inisiator untuk membuat instan dari kelas UrusanIoT.
+/// @brief Objek untuk membuat koneksi ke IoT Broker.
 /// @param broker 
 /// @param port 
 /// @param clientId 

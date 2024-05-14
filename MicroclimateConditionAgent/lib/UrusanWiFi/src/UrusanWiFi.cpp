@@ -41,6 +41,8 @@ bool UrusanWiFi::apakahKonek() {
 /// @param event 
 /// @param info 
 void UrusanWiFi::onWiFiEvent(WiFiEvent_t event, WiFiEventInfo_t info) {
+  // Implement your event handling logic here
+  // For example, you can print event details
   if(event == ARDUINO_EVENT_WIFI_STA_DISCONNECTED){
     Serial.printf("UrusanWiFi: Koneksi dengan %s terputus!\n", info.wifi_sta_connected.ssid);
   }
