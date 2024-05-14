@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "C:/Users/Arma/Documents/Rumah-Kaca-Elangnesia-/Human Computer Interaction Agent/.pio/build/esp32doit-devkit-v1/firmware.elf",
-            "projectEnvName": "esp32doit-devkit-v1",
-            "toolchainBinDir": "C:/Users/Arma/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "executable": "C:/daffa/kelompok/Rumah-Kaca-Elangnesia-/Human Computer Interaction Agent/.pio/build/microclimateConditionAgent/firmware.elf",
+            "projectEnvName": "microclimateConditionAgent",
+            "toolchainBinDir": "C:/Users/ASUS/.platformio/packages/toolchain-xtensa-esp32/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -25,18 +25,18 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "C:/Users/Arma/Documents/Rumah-Kaca-Elangnesia-/Human Computer Interaction Agent/.pio/build/esp32doit-devkit-v1/firmware.elf",
-            "projectEnvName": "esp32doit-devkit-v1",
-            "toolchainBinDir": "C:/Users/Arma/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "executable": "C:/daffa/kelompok/Rumah-Kaca-Elangnesia-/Human Computer Interaction Agent/.pio/build/microclimateConditionAgent/firmware.elf",
+            "projectEnvName": "microclimateConditionAgent",
+            "toolchainBinDir": "C:/Users/ASUS/.platformio/packages/toolchain-xtensa-esp32/bin",
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "C:/Users/Arma/Documents/Rumah-Kaca-Elangnesia-/Human Computer Interaction Agent/.pio/build/esp32doit-devkit-v1/firmware.elf",
-            "projectEnvName": "esp32doit-devkit-v1",
-            "toolchainBinDir": "C:/Users/Arma/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "executable": "C:/daffa/kelompok/Rumah-Kaca-Elangnesia-/Human Computer Interaction Agent/.pio/build/microclimateConditionAgent/firmware.elf",
+            "projectEnvName": "microclimateConditionAgent",
+            "toolchainBinDir": "C:/Users/ASUS/.platformio/packages/toolchain-xtensa-esp32/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"
         }
