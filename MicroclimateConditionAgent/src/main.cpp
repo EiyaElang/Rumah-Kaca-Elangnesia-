@@ -63,7 +63,7 @@ void loop() {
 }
 
 void subscribeTopik(){
-  urusanIoT.subscribe("tld/namaorganisasi/namadivisi/setelan");
+  urusanIoT.subscribe("org/elangnesia/MicroclimateConditionAgent/setelan");
 }
 
 void penangkapPesan(String topic, String message){
@@ -84,7 +84,7 @@ void task1DetailTugas(){
 
       serializeJson(data, muatan);
 
-      urusanIoT.publish("tld/namaorganisasi/namadivisi", muatan);
+      urusanIoT.publish("org/elangnesia/MicroclimateConditionAgent", muatan);
     }
   }
 }
